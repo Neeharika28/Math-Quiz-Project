@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+    background-color: teal;
+    color: whitesmoke;
+}
+button{
+    color:teal;
+}
+input{
+    transition: width 0.4s ease-in-out;
+    width: 100px;
+    color: teal;
+}
+input:focus{
+    width: 50%;
+}
+#output{
+background-color: white;
+border-top: 10px solid gray;
+float: none;
+text-align: center;
+padding: 50px;
+height: 200px;
+
+
+}
