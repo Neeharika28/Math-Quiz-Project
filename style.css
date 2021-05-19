@@ -1,0 +1,40 @@
+body{
+    text-align:center !important ;
+    background-color: darkcyan;
+    color: whitesmoke;
+}
+#input_1{
+    transition: width 0.4s ease-in-out;
+}
+#input_1:focus{
+    width: 100%;
+}
+
+#input_2{
+    transition: width 0.4s ease-in-out;
+}
+#input_2:focus{
+    width: 100%;
+}
+div{
+    float: none !important;
+}
+input:hover{
+    box-shadow:0px 0px 5px white;
+}
+input{
+    box-shadow: whitesmoke;
+    border-radius: 5px;
+    border-color: whitesmoke;
+    color: teal;
+}
+
+#main_div{
+    background-color: rgb(255, 255,255,0.2);
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+button{
+    color: darkcyan !important;;
+}
